@@ -1,0 +1,13 @@
+.full-screen {
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#share-button {
+    width: 10vw;
+    height: 5vh;
+    align-items: centre
+}

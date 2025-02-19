@@ -1,0 +1,13 @@
+<div class="full-screen">
+ 
+  <ng-lottie [options]="options" [width]="width" [height]="height"
+  (click)="nextAnimation()"></ng-lottie>
+
+  @if (share) {
+  <div>
+    <button type="button" (click)="shareContent()"><img src="/share_icon.jpg" id="share-button">share</button>
+  </div>
+}
+
+
+</div>
